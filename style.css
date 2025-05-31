@@ -97,14 +97,15 @@ section h2 {
 }
 
 .about-photo {
-    width: 300px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: none;
-    margin-top: 20px;
+    width: 300px;              /* Adjust size as you prefer */
+    height: auto;              /* Maintain aspect ratio */
+    border: none;              /* Ensure no border */
+    box-shadow: none;          /* Remove any shadow */
+    background: transparent;   /* No background box */
+    padding: 0;                /* Remove padding if any */
+    border-radius: 10px;       /* Optional: smooth corners */
+    object-fit: cover;         /* Optional: to crop inside the box if needed */
 }
-
 /* Education */
 /* Education Section */
 #education {
