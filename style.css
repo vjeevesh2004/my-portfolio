@@ -95,7 +95,7 @@ section h2 {
     flex: 1;
     min-width: 260px;
 }
-
+/*
 .about-photo {
     width: 300px;
     height: auto;
@@ -103,6 +103,13 @@ section h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+}
+*/
+.about-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Makes it a circle */
+  object-fit: cover;  /* Ensures the image doesn't stretch */
 }
 
 /* Education */
