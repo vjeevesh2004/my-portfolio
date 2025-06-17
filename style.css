@@ -36,7 +36,7 @@ nav ul li a {
   padding: 1rem 1.5rem;
   color: white;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
