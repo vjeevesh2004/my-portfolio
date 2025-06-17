@@ -14,6 +14,7 @@ body {
 }
 
 /* Navigation bar */
+/* Navigation bar */
 nav {
   background-color: transparent; /* Match page background */
   box-shadow: none; /* No shadow or borders */
@@ -35,17 +36,16 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 1rem 1.5rem;
-  color: white;
+  color: #000; /* Simple black text */
   text-decoration: none;
-  font-weight: none;
+  font-weight: normal;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #f2f2f2; /* Light grey hover */
-  color: #000; /* Keep text black on hover */
+  background-color: #f2f2f2; /* Light hover effect for clarity */
+  color: #000;
 }
-
 
 /* Responsive navbar on small screens */
 @media (max-width: 768px) {
@@ -53,7 +53,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
   }
-  
+
   nav ul li {
     margin: 0.5rem 0;
   }
@@ -62,6 +62,7 @@ nav ul li a:hover {
     padding: 0.8rem 1.2rem;
   }
 }
+
 
 /* Header with Background Image */
 header {
