@@ -238,6 +238,31 @@ section h2 {
     background: #0198a5;
 }
 
+/* Skills Section Styling */
+#skills {
+    padding: 40px 20px;
+    background-color: #f0fafa; /* optional background for better section contrast */
+}
+
+/* Center headings inside #skills */
+#skills h2,
+#skills h3 {
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+/* Skill list layout */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
 /* Skill badge styles */
 #skills li {
     background: #b2ebf2;
@@ -254,7 +279,6 @@ section h2 {
     transform: scale(1.05);
     cursor: default;
 }
-
 /* Contact */
 #contact p {
     text-align: center;
